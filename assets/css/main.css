@@ -171,6 +171,8 @@ input, select, textarea {
 		position: relative;
 		text-transform: uppercase;
 	}
+	
+	
 
 		h1:after, h2:after, h3:after, h4:after, h5:after, h6:after {
 			border-bottom: solid 1px;
@@ -181,6 +183,12 @@ input, select, textarea {
 			position: absolute;
 			width: 3rem;
 		}
+
+	   h3:after {
+			border-bottom: 0 !important;
+			
+		}
+
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border-bottom: 0;
