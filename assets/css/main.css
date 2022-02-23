@@ -142,7 +142,6 @@ input, select, textarea {
 		-webkit-transition: border-bottom-color 0.2s ease-in-out;
 		-ms-transition: border-bottom-color 0.2s ease-in-out;
 		transition: border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		text-decoration: none;
 	}
 
@@ -161,6 +160,8 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 	}
+	
+
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Cormorant Garamond', serif;
