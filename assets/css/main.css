@@ -198,7 +198,7 @@ input, select, textarea {
 		}
 
 		h1.alt, h2.alt, h3.alt, h4.alt, h5.alt, h6.alt {
-			margin: 0 0 1em 0;
+			margin: 1em 1em 1.5em 1em;
 			padding-bottom: 0;
 		}
 
@@ -2407,7 +2407,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 45%;
+			padding: 1em;
 		}
 
 			.image.left img, .image.right img {
@@ -2416,14 +2417,14 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
+			margin: 1em 1em 1em 1em;
+		
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
+			margin: 1em 1em 1em 1em;
+			
 		}
 
 		.image.fit {
