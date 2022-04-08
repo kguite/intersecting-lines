@@ -233,6 +233,11 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
+		
+		#logo {
+			width: 100%;
+			margin: 0 auto;
+		}
 
 		h2 {
 			line-height: 1.5em;
@@ -576,6 +581,11 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
+			
+			#logo {
+				width: 80%;
+				margin: 0 auto;
+			}
 
 			.row {
 				display: flex;
@@ -821,6 +831,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			
+			#logo {
+				width: 80%;
+				margin: 0 auto;
+			}
 
 			.row {
 				display: flex;
@@ -1066,6 +1081,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			
+			#logo {
+				width: 100%;
+				margin: 0 auto;
+			}
 
 			.row {
 				display: flex;
@@ -1311,6 +1331,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			
+			#logo {
+				width: 100%;
+				margin: 0 auto;
+			}
 
 			.row {
 				display: flex;
@@ -1556,6 +1581,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+			
+			#logo {
+				width: 100%;
+				margin: 0 auto;
+			}
 
 			.row {
 				display: flex;
@@ -1995,6 +2025,11 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1280px) {
+			
+			#logo {
+				width: 80%;
+				margin: 0 auto;
+			}
 
 			.features > section {
 				width: calc(33.33333333% - 2.5em);
@@ -2007,7 +2042,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+#logo {
+	width: 100%;
+	margin: 0 auto;
+}
 			.features {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -2035,6 +2073,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+#logo {
+	width: 100%;
+	margin: 0 auto;
+}
 			.features > section:before {
 				top: -2.5em;
 			}
@@ -2447,10 +2489,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-	#logo {
-		width: 50%;
-		margin: 0 auto;
-	}
+	
 	
 	#touch > h2:after {
 		border-bottom: none;
@@ -2588,6 +2627,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+#logo {
+	width: 100%;
+	margin: 0 auto;
+}
+
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -2702,6 +2746,24 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+#logo {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#logoAbout {
+	width: 20%;
+	float: left;
+}
+
+audio {
+	width: 100%;
+}
+
+#main {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
 			ul.bulleted-icons li {
 				width: 100%;
 				margin: 1em 0 0 0;
@@ -2771,6 +2833,8 @@ input, select, textarea {
 			ul.pagination li:last-child {
 				padding-left: 0.75em;
 			}
+			
+			
 
 		@media screen and (max-width: 480px) {
 
