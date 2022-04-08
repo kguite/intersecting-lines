@@ -147,6 +147,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
+			color: #4D736F;
 		}
 
 	strong, b {
@@ -1920,7 +1921,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f6f6f6;
+			background-color: #C1D9D4;
 		}
 
 		input[type="submit"]:active,
@@ -2455,8 +2456,8 @@ input, select, textarea {
 		border-bottom: none;
 	}
 	
-	#banner h2 {
-		font-size: 3em;
+	#banner.inner > h2 {
+		font-size: 50px;
 		line-height: 2em;
 	}
 /* List */
