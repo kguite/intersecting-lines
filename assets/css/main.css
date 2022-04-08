@@ -2754,10 +2754,24 @@ input, select, textarea {
 #logoAbout {
 	width: 20%;
 	float: left;
+	padding: 2em;
+}
+
+#audioEpisode {
+	border: 2px solid #4D736F;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #C1D9D4;
+}
+
+#musicCredits {
+	text-align: right;
+	padding: 1em;
 }
 
 audio {
 	width: 100%;
+	margin: 0 auto;
 }
 
 #main {
