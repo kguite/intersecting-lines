@@ -27,6 +27,23 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+#audioEpisode {
+	border: 2px solid #4D736F;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #C1D9D4;
+}
+
+#musicCredits {
+	text-align: right;
+	padding: 1em;
+}
+
+audio {
+	width: 100%;
+	margin: 0 auto;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
